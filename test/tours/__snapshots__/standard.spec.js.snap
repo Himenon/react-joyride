@@ -101,12 +101,12 @@ Object {
 
 exports[`Joyride > Standard should have ended the tour 1`] = `
 Object {
-  "action": "stop",
+  "action": "start",
   "controlled": false,
   "index": 0,
   "lifecycle": "init",
   "size": 5,
-  "status": "paused",
+  "status": "running",
 }
 `;
 

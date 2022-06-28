@@ -4,8 +4,8 @@ import Standard from '../__fixtures__/Standard';
 
 import { ACTIONS, EVENTS, LIFECYCLE, STATUS } from '../../src';
 
-jest.mock('popper.js', () => {
-  const PopperJS = jest.requireActual('popper.js');
+jest.mock('@popperjs/core', () => {
+  const PopperJS = jest.requireActual('@popperjs/core');
 
   return class {
     static placements = PopperJS.placements;
